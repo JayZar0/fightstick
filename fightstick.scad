@@ -1,7 +1,7 @@
 
 difference() {
     translate([0, 0, 50])
-        cube([240, 350, 10]);
+        cube([200, 350, 10]);
     translate([120, 80, 20])
         cylinder(h=40, r=12.5);
     translate([100, 180, 20])
@@ -23,7 +23,9 @@ difference() {
 
 }
 difference() {
-    cube([240, 350, 50]);
+    cube([200, 350, 50]);
     translate([20, 10, 10])
         cube([210, 330, 45]);
 }
+
+right_triangle();
