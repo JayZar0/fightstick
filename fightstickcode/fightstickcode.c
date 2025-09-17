@@ -1,7 +1,8 @@
-#include <stdio.h>
-#include "pico/stdlib.h"
+#include "header.h"
 
-
+/// Copyright John Lazaro 2025
+/// @brief 
+/// @return 
 int main()
 {
     stdio_init_all();
